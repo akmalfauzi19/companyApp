@@ -29,7 +29,7 @@
                                 <td>{{ $item->name }}</td>
                                 <td>{{ $item->email }}</td>
                                 <td>
-                                    <img src="{{ url('public/company/' . $item->logo) }}"
+                                    <img src="{{ url('images/company/' . $item->logo) }}"
                                         alt="companies-{{ $item->name }}" style="max-height: 100px; max-width: 100px;">
 
                                 </td>
